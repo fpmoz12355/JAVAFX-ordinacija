@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="350.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ordinacija.controller.AlertDisplayController">
+   <children>
+      <Label layoutX="26.0" layoutY="145.0" text="Spremljeni podatci o zakazanom pregledu">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <ImageView fitHeight="104.0" fitWidth="101.0" layoutX="116.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/appointment.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

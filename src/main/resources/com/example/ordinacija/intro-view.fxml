@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="825.0" style="-fx-background-color: #f9f9f9;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ordinacija.controller.IntroController">
+   <center>
+      <ImageView fitHeight="396.0" fitWidth="707.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../../../img/logo.png" />
+         </image>
+      </ImageView>
+   </center>
+   <bottom>
+      <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <center>
+            <ToolBar style="-fx-background-color: #fbfbfb;" BorderPane.alignment="CENTER">
+              <items>
+                <Button mnemonicParsing="false" onAction="#newPatient" prefHeight="65.0" prefWidth="210.0" style="-fx-background-color: #94d5d7;" text="+ NOVI PACIJENT">
+                     <font>
+                        <Font name="Agency FB Bold" size="23.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="10.0" lineSpacing="30.0" mnemonicParsing="false" onAction="#evidention" prefHeight="65.0" prefWidth="210.0" style="-fx-background-color: #30a7b5;" text="EVIDENCIJA" textFill="WHITE">
+                     <font>
+                        <Font name="Agency FB Bold" size="27.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="80.0" layoutY="10.0" mnemonicParsing="false" onAction="#newExaminationIntro" prefHeight="65.0" prefWidth="210.0" style="-fx-background-color: #94d5d7;" text="+ NOVI PREGLED">
+                     <font>
+                        <Font name="Agency FB Bold" size="23.0" />
+                     </font>
+                  </Button>
+              </items>
+            </ToolBar>
+         </center>
+         <left>
+            <Pane prefHeight="200.0" prefWidth="78.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane prefHeight="200.0" prefWidth="90.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </bottom>
+</BorderPane>

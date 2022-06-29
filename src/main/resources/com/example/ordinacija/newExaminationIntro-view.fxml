@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fefefe;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ordinacija.controller.NewExaminationIntroController">
+   <children>
+      <Button layoutX="295.0" layoutY="387.0" mnemonicParsing="false" onAction="#newExamination" prefHeight="65.0" prefWidth="210.0" style="-fx-background-color: #94d5d7;" text="NOVI PREGLED">
+         <font>
+            <Font name="Agency FB Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="295.0" layoutY="486.0" mnemonicParsing="false" onAction="#newAppointment" prefHeight="65.0" prefWidth="210.0" style="-fx-background-color: #30a7b5;" text="ZAKAŽI PREGLED">
+         <font>
+            <Font name="Agency FB Bold" size="23.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="302.0" fitWidth="586.0" layoutX="107.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/novi%20pregled.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
